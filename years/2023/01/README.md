@@ -1,3 +1,7 @@
+| Part 1 | Part 2 |
+| ------ | ------ |
+| 54697  | 54885  |
+
 # Part 1
 
 Something is wrong with global snow production, and you've been selected to take a look. The Elves have even given you a map; on it, they've used stars to mark the top fifty locations that are likely to be having problems.
@@ -24,8 +28,6 @@ treb7uchet
 In this example, the calibration values of these four lines are `12`, `38`, `15`, and `77`. Adding these together produces `142`.
 
 Consider your entire calibration document. What is the sum of all of the calibration values?
-
-Your puzzle answer was `54697`.
 
 # Part 2
 
