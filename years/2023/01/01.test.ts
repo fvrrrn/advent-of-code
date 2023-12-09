@@ -18,7 +18,7 @@ test('Counts sum of sum of first and last digit in line 2', async () => {
   expect(p2023day1_part1(rawInput)).toBe(54697)
 })
 
-test('Counts sum of sum of first and last digit or word in line', () => {
+test('Counts sum of sum of first and last digit or word in line 1', () => {
   expect(
     p2023day1_part2(
       `two1nine
@@ -30,4 +30,9 @@ zoneight234
 7pqrstsixteen`,
     ),
   ).toBe(281)
+})
+
+test('Counts sum of sum of first and last digit or word in line 2', async () => {
+  const rawInput = await fs.readFile(path.join(__dirname, 'input.txt'), 'utf8')
+  expect(p2023day1_part2(rawInput)).toBe(54885)
 })
